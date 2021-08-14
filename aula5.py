@@ -1,6 +1,6 @@
 # Tipos númericos
 
-import random  # importanto  biblioteca random
+import random 
 num_i = 10  # inteiro
 num_f = 5.2  # float
 num_c = 1j  # complexo
