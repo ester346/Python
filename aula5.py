@@ -18,17 +18,12 @@ x = float(num_i)
 
 # Random (numéros aleatórios)
 
-
-# Gerando num aleatórios
-
-
-# random: num aleatórios. randrange: inicio da seq e fim da seq de num aleatorios.
-num_r = random.randrange(0, 59)
+# 1. Gerando num aleatórios
+num_r = random.randrange(0, 59) # random: gera num aleatórios. randrange: gera inicio da seq e fim da seq de num aleatorios.
 
 x = num_r
 
 print("Valor: " + str(num_r) + " - Tipo: " + str((type(num_r))))
-
 
 num_r = [  # list
     random.randrange(0, 59),
