@@ -23,10 +23,3 @@ for mes in lista_meses:
     if (tabela_vendas["Vendas"] > 55000).any():
         print(f"No mês de {mes} Encontrou alguém com mais de 55000")
 
-# Para cada arquivo:
-
-# Verificar se algum valor na coluna Vendas, de cada arquivo, é maior que 55.000
-
-# Se for maior que 55.000 -> Enviar um SMS com Nome, o mês e as vendas dele(a).
-
-# Caso não seja maior que 55.000 não fazer nada.
