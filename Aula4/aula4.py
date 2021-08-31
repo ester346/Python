@@ -22,37 +22,33 @@ print("O tipo " + str(type(x)))
 print(x.real)
 print(x.imag)
 
+# Imprimindo  Array
 
-# 1. Coleções no python
-# 1.1 Arrays
+# Coleções no python
+# Arrays
 
 x = ["Carro", "Avião", "Navio", 1, 58.3, True]  # List/ Array
 x[0] = "Onibus"  # alterando o valor da posição 0.
 
-# Imprimindo  um Dado tipo Array
-# o x indica a variável (que é uma lista), e o [0] indica a posição do (primeiro) elemento da lista.
+# o x indica a variável (que é uma lista), e o [0] indica a posição do primeiro elemento da lista.
 print("Valor " + x[0])
 print("O tipo " + str(type(x)))
 
-# 1.2 Tupla (a tupla é dirente de um array, porque nela vc n pode alterar um elemento)
+# Tupla (a tupla é dirente de um array, porque nela vc n pode alterar um elemente)
+x = ("Carro", "Avião", "Navio", 1, 58.3, True)
 
-x = ("Carro", "Avião", "Navio", 1, 58.3, True) # Uma lista pode possuir mais de um Tipo de Dado
 
-# Imprimindo uma lista de dados Tipo Tupla 
 print("Valor " + x[0])
 print("Tipo" + str(type(x)))
 
-# 1.3 Range (Finalidade criar uma lista de maneira fácil)
+# Range (Finalidade criar uma lista de maneira fácil)
 
 x = range(0, 100)  # List (Criou uma list de 0 a 100 posições)
-
-# Imprimido uma lista de dados tipo Range 
 print("Valor " + str(x[0]))
 print("Tipo" + str(type(x)))
 
-# 1.4 Dictonary (Elemento chave e valor)
+# Dictonary (Elemento chave e valor)
 
-# Declarando uma Dictonary
 x = {
     #Dict (Chave -- Valor)
     "Canal": "CFB Cursos",
@@ -60,19 +56,15 @@ x = {
     "Nome": "Bruno",
 }
 
-# Imprimindo uma Dictonary 
 print("Valor " + x["Nome"])
 print("Tipo" + str(type(x)))
 
-# 1.5 Set
-
+# Set
 x = {5, 7, 4, 5, 7, 4, 8}  # set não repete os valores
-
-#Imprimindo um lista tipo Set 
 print("Valor " + str((x)))
 print("Tipo" + str(type(x)))
 
-# 1.6 flozenset
+# flozenset
 
-# frozenset tem a finalidade de blockear o set, fazendo com q não seja possível altera-lo os valores dos dados.
+# frozenset tem a finalidade de blockear o set, fazendo que a gente não consiga altera-lo.
 x = frozenset({5, 7, 4, 5, 7, 4, 8})
